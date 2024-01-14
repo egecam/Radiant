@@ -9,7 +9,39 @@ import SwiftUI
 
 struct BottomMenuBarView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        View {
+            ToolbarItemGroup(placement: .cancellationAction) {
+                Text("Welcome back, Ege")
+                    .font(.title2)
+                    .bold()
+                    .padding()
+            }
+            
+            ToolbarItemGroup(placement: .bottomBar) {
+                Spacer()
+                VStack {
+                    Image(systemName: "house.fill")
+                    Text("Home")
+                }
+                
+                Spacer()
+                NavigationLink(destination: Explore()) {
+                    VStack {
+                        Image(systemName: "sparkle.magnifyingglass")
+                        Text("Explore")
+                    }
+                }
+                Spacer()
+                NavigationLink(destination: Profile()) {
+                    VStack {
+                        Image(systemName: "person.fill")
+                        Text("Profile")
+                    }
+                }
+                Spacer()
+                
+            }
+        }
     }
 }
 

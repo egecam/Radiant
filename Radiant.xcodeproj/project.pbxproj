@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD21ADBF2B532A9300781B41 /* SpotifyAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD21ADBE2B532A9300781B41 /* SpotifyAPIManager.swift */; };
 		CDFD24952B52AC4500AE5E3A /* RadiantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFD24942B52AC4500AE5E3A /* RadiantApp.swift */; };
-		CDFD24972B52AC4500AE5E3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFD24962B52AC4500AE5E3A /* ContentView.swift */; };
+		CDFD24972B52AC4500AE5E3A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFD24962B52AC4500AE5E3A /* Home.swift */; };
 		CDFD24992B52AC4700AE5E3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFD24982B52AC4700AE5E3A /* Assets.xcassets */; };
 		CDFD249C2B52AC4700AE5E3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFD249B2B52AC4700AE5E3A /* Preview Assets.xcassets */; };
+		CDFD24A32B52ACFE00AE5E3A /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFD24A22B52ACFE00AE5E3A /* Theme.swift */; };
+		CDFD24A62B52AD7C00AE5E3A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFD24A52B52AD7C00AE5E3A /* Card.swift */; };
+		CDFD24A82B52AEE900AE5E3A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFD24A72B52AEE900AE5E3A /* CardView.swift */; };
+		CDFD24AB2B52B4B400AE5E3A /* ScrollableCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFD24AA2B52B4B400AE5E3A /* ScrollableCardsView.swift */; };
+		CDFD24AD2B52B80C00AE5E3A /* CardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFD24AC2B52B80C00AE5E3A /* CardDetailView.swift */; };
+		CDFD24AF2B52D3E900AE5E3A /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFD24AE2B52D3E900AE5E3A /* Profile.swift */; };
+		CDFD24B12B52D4EE00AE5E3A /* Explore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFD24B02B52D4EE00AE5E3A /* Explore.swift */; };
+		FE07B2D6A9F39C257D4AB316 /* libPods-Radiant.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA826D74E59B17B49C135AC4 /* libPods-Radiant.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48A1E1BD794C6AB7AFFAED7E /* Pods-Radiant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radiant.debug.xcconfig"; path = "Target Support Files/Pods-Radiant/Pods-Radiant.debug.xcconfig"; sourceTree = "<group>"; };
+		4DF109420B7BDF6EC58EFA16 /* Pods-Radiant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radiant.release.xcconfig"; path = "Target Support Files/Pods-Radiant/Pods-Radiant.release.xcconfig"; sourceTree = "<group>"; };
+		CA826D74E59B17B49C135AC4 /* libPods-Radiant.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Radiant.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD21ADBE2B532A9300781B41 /* SpotifyAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyAPIManager.swift; sourceTree = "<group>"; };
 		CDFD24912B52AC4500AE5E3A /* Radiant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Radiant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDFD24942B52AC4500AE5E3A /* RadiantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiantApp.swift; sourceTree = "<group>"; };
-		CDFD24962B52AC4500AE5E3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDFD24962B52AC4500AE5E3A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		CDFD24982B52AC4700AE5E3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDFD249B2B52AC4700AE5E3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDFD24A22B52ACFE00AE5E3A /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		CDFD24A52B52AD7C00AE5E3A /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		CDFD24A72B52AEE900AE5E3A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		CDFD24AA2B52B4B400AE5E3A /* ScrollableCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableCardsView.swift; sourceTree = "<group>"; };
+		CDFD24AC2B52B80C00AE5E3A /* CardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailView.swift; sourceTree = "<group>"; };
+		CDFD24AE2B52D3E900AE5E3A /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		CDFD24B02B52D4EE00AE5E3A /* Explore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Explore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +46,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE07B2D6A9F39C257D4AB316 /* libPods-Radiant.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		307CB0D343566A9B8B357E1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48A1E1BD794C6AB7AFFAED7E /* Pods-Radiant.debug.xcconfig */,
+				4DF109420B7BDF6EC58EFA16 /* Pods-Radiant.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		595D76FECF21E5EE8B7FC32E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA826D74E59B17B49C135AC4 /* libPods-Radiant.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CDFD24882B52AC4500AE5E3A = {
 			isa = PBXGroup;
 			children = (
 				CDFD24932B52AC4500AE5E3A /* Radiant */,
 				CDFD24922B52AC4500AE5E3A /* Products */,
+				307CB0D343566A9B8B357E1E /* Pods */,
+				595D76FECF21E5EE8B7FC32E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,7 +92,11 @@
 			isa = PBXGroup;
 			children = (
 				CDFD24942B52AC4500AE5E3A /* RadiantApp.swift */,
-				CDFD24962B52AC4500AE5E3A /* ContentView.swift */,
+				CDFD24A42B52AD0200AE5E3A /* Models */,
+				CDFD24A92B52AEEC00AE5E3A /* Views */,
+				CDFD24962B52AC4500AE5E3A /* Home.swift */,
+				CDFD24B02B52D4EE00AE5E3A /* Explore.swift */,
+				CDFD24AE2B52D3E900AE5E3A /* Profile.swift */,
 				CDFD24982B52AC4700AE5E3A /* Assets.xcassets */,
 				CDFD249A2B52AC4700AE5E3A /* Preview Content */,
 			);
@@ -67,6 +111,26 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		CDFD24A42B52AD0200AE5E3A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CDFD24A22B52ACFE00AE5E3A /* Theme.swift */,
+				CDFD24A52B52AD7C00AE5E3A /* Card.swift */,
+				CD21ADBE2B532A9300781B41 /* SpotifyAPIManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CDFD24A92B52AEEC00AE5E3A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CDFD24A72B52AEE900AE5E3A /* CardView.swift */,
+				CDFD24AA2B52B4B400AE5E3A /* ScrollableCardsView.swift */,
+				CDFD24AC2B52B80C00AE5E3A /* CardDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +138,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDFD249F2B52AC4700AE5E3A /* Build configuration list for PBXNativeTarget "Radiant" */;
 			buildPhases = (
+				45086379AAB781D6E86DCE35 /* [CP] Check Pods Manifest.lock */,
 				CDFD248D2B52AC4500AE5E3A /* Sources */,
 				CDFD248E2B52AC4500AE5E3A /* Frameworks */,
 				CDFD248F2B52AC4500AE5E3A /* Resources */,
@@ -132,13 +197,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		45086379AAB781D6E86DCE35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Radiant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CDFD248D2B52AC4500AE5E3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDFD24972B52AC4500AE5E3A /* ContentView.swift in Sources */,
+				CDFD24A32B52ACFE00AE5E3A /* Theme.swift in Sources */,
+				CDFD24AF2B52D3E900AE5E3A /* Profile.swift in Sources */,
+				CDFD24972B52AC4500AE5E3A /* Home.swift in Sources */,
+				CD21ADBF2B532A9300781B41 /* SpotifyAPIManager.swift in Sources */,
 				CDFD24952B52AC4500AE5E3A /* RadiantApp.swift in Sources */,
+				CDFD24A62B52AD7C00AE5E3A /* Card.swift in Sources */,
+				CDFD24A82B52AEE900AE5E3A /* CardView.swift in Sources */,
+				CDFD24AB2B52B4B400AE5E3A /* ScrollableCardsView.swift in Sources */,
+				CDFD24AD2B52B80C00AE5E3A /* CardDetailView.swift in Sources */,
+				CDFD24B12B52D4EE00AE5E3A /* Explore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +364,7 @@
 		};
 		CDFD24A02B52AC4700AE5E3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48A1E1BD794C6AB7AFFAED7E /* Pods-Radiant.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -285,6 +384,17 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Alamofire\"",
+					"-l\"Moya\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"Foundation\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = dev.egecam.Radiant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -295,6 +405,7 @@
 		};
 		CDFD24A12B52AC4700AE5E3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DF109420B7BDF6EC58EFA16 /* Pods-Radiant.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,6 +425,17 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Alamofire\"",
+					"-l\"Moya\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"Foundation\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = dev.egecam.Radiant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

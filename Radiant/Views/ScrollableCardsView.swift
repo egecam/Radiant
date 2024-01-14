@@ -8,11 +8,24 @@
 import SwiftUI
 
 struct ScrollableCardsView: View {
+    let cards: [Card]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView(.horizontal, showsIndicators: false) {
+            HStack {
+                ForEach(cards) { card in
+                    NavigationLink(destination: CardDetailView(card: card)) {
+                        CardView(card: card)
+                    }
+                }
+            }
+            .padding()
+        }
     }
 }
 
-#Preview {
-    ScrollableCardsView()
+struct ScrollableCardsView_Previews: PreviewProvider {
+    static var previews: some View {
+        ScrollableCardsView(cards: Card.sampleData)
+    }
 }

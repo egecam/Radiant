@@ -1,0 +1,6 @@
+module Pods_Radiant {
+  umbrella header "Pods-Radiant-umbrella.h"
+
+  export *
+  module * { export * }
+}

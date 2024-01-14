@@ -51,46 +51,47 @@ struct Home: View {
                 }
             }
             .toolbar {
-                ToolbarItemGroup(placement: .confirmationAction) {
-                    
+                Group {
+                    ToolbarItemGroup(placement: .confirmationAction) {
+                        
                         
                         Button(action: {}, label: {
                             Image(systemName: "bell")
                         })
+                        
+                    }
                     
-                }
-                
-                ToolbarItemGroup(placement: .cancellationAction) {
-                    Text("Welcome back, Ege")
-                        .font(.title2)
-                        .bold()
-                        .padding()
-                }
-                
-                ToolbarItemGroup(placement: .bottomBar) {
-                    HStack {
+                    
+                    ToolbarItemGroup(placement: .cancellationAction) {
+                        Text("Welcome back, Ege")
+                            .font(.title2)
+                            .bold()
+                            .padding()
+                    }
+                    
+                    ToolbarItemGroup(placement: .bottomBar) {
                         Spacer()
-                        Button(action: {}, label: {
-                            VStack {
-                                Image(systemName: "house.fill")
-                                Text("Home")
-                            }
-                        })
+                        VStack {
+                            Image(systemName: "house.fill")
+                            Text("Home")
+                        }
+                        
                         Spacer()
-                        Button(action: {}, label: {
+                        NavigationLink(destination: Explore()) {
                             VStack {
                                 Image(systemName: "sparkle.magnifyingglass")
                                 Text("Explore")
                             }
-                        })
+                        }
                         Spacer()
-                        Button(action: {}, label: {
+                        NavigationLink(destination: Profile()) {
                             VStack {
                                 Image(systemName: "person.fill")
                                 Text("Profile")
                             }
-                        })
+                        }
                         Spacer()
+                        
                     }
                 }
             }
